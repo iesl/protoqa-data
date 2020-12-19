@@ -14,9 +14,9 @@ For a full description of the data format, see [DATAFORMAT.md](DATAFORMAT.md).
 
 ## File organization:
 
-* **data/train/train.jsonl**: 8781 instances for training or fine-tuning scraped from Family Feud fan sites (see paper). Scraped data has answer clusters with sizes, but only has a single string per cluster (corresponding to the original cluster name(0
+* **data/train/train.jsonl**: 8781 instances for training or fine-tuning scraped from Family Feud fan sites (see paper). Scraped data has answer clusters with sizes, but only has a single string per cluster (corresponding to the original cluster name.
 * **data/dev/dev.scraped.jsonl**: 979 instances sampled from the same Family Feud data, for use in model validation and development. 
-* **data/dev/dev.crowdsourced.jsonl**: 51 questions collected with exhaustive answer collection and manual clustering, matching the details of the eval test set (roughly 100 human answers per question)
+* **data/dev/dev.crowdsourced.jsonl**: 51 questions collected with exhaustive answer collection and manual clustering, matching the details of the eval test set (roughly 100 human answers per question).
 * **data/test/test.questions.jsonl** 102 questions for evaluation. (Note that the test set contains questions only.)
 
 
