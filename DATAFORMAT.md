@@ -3,7 +3,7 @@ All files are in `jsonl` format. Below we describe the format expected of each l
 
 ## Answer Cluster Data
 
-```json
+```
 {
   "metadata": {
     "id": <str> unique id of this question,
@@ -41,7 +41,7 @@ There is only one string available per cluster. In particular, the scraped dev s
 
 ## Assessment Data
 
-```json
+```
 {
   "question_id": <str> unique id of the associated question,
   "assessments": { <dict[str,str]> association from answer strings to cluster ids, eg:

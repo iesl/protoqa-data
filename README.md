@@ -9,7 +9,7 @@ Each line is a json dictionary, in which:
   * **raw** original answers provided by survey respondents (when available) with their counts
   * **clusters** which include the score for each cluster and the strings included in that cluster
   
-For a full description of the data format, see `DATAFORMAT.md`.
+For a full description of the data format, see [DATAFORMAT.md](DATAFORMAT.md).
 
 
 ## File organization:
@@ -21,4 +21,4 @@ For a full description of the data format, see `DATAFORMAT.md`.
 
 
 ## Notes:
-This repository contains a **data statement** (based on [Datasheets for Datasets (Gebru et al. 2020)](https://arxiv.org/pdf/1803.09010.pdf) and [earlier NLP-specific work (Bender and Friedman 2018)](https://www.aclweb.org/anthology/Q18-1041.pdf)) to provide transparency in data use and encourage others to do so.  This is a preliminary version of the statement; please post issues in the repository or contact the authors if you have questions regarding the data details or suggestions regarding the dataset use. 
+This repository contains a [data statement](DATASTATEMENT.md) (based on [Datasheets for Datasets (Gebru et al. 2020)](https://arxiv.org/pdf/1803.09010.pdf) and [earlier NLP-specific work (Bender and Friedman 2018)](https://www.aclweb.org/anthology/Q18-1041.pdf)) to provide transparency in data use and encourage others to do so.  This is a preliminary version of the statement; please post issues in the repository or contact the authors if you have questions regarding the data details or suggestions regarding the dataset use. 
